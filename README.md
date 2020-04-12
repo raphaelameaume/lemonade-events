@@ -37,7 +37,7 @@ eventListener();
 EventBus.off(e, listener);
 ```
 
-You can also create an instance of EventBus by yourself if you don't want to use the global one
+You can also create an instance of EventBus by yourself if you need.
 
 ```js
 import { EventBus } from "lemonade-helpers";
